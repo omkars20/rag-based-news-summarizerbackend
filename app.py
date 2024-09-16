@@ -10,7 +10,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 # Global variables
-api_key = '7b57b745-df4d-474e-9f61-c38ec98a4968'
+api_key = 'your-news-api-key-here'   # go to newsapi website and sign up there , you will get there free api key
 # Sentence Transformer model for embeddings
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
